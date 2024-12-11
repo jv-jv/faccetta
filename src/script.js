@@ -39,7 +39,7 @@ controls.minPolarAngle = 0; // Limit vertical rotation (downwards)
 let loadedModel = null;
 const loader = new GLTFLoader();
 loader.load(
-  "./Faccia Macchiette Nov 2024.glb", // Path to your GLB file
+  "./faccia.glb", // Path to your GLB file
   (gltf) => {
     loadedModel = gltf.scene; // Store the loaded model
     scene.add(loadedModel); // Add the model to the scene
